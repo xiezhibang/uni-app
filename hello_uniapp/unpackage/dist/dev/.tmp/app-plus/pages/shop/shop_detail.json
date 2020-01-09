@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺详情",
+  "usingComponents": {
+    "rate-show": "/components/rateShow",
+    "loading": "/components/loading"
+  }
+}

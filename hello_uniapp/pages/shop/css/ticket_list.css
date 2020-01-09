@@ -1,0 +1,130 @@
+page{
+	background: #F2F2F2;
+}
+
+.top_wrap{
+	position: fixed;
+	top:calc(128upx + var(--status-bar-height));
+	left: 0;
+	z-index: 2000;
+	width: 750upx;
+	height: 100upx;
+	background: #fff;
+	/* #ifdef MP-WEIXIN */
+	top:calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.list_control{
+	width: 600upx;
+	height: 80upx;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+
+.list_item_btn{
+	width: 200upx;
+	height: 80upx;
+	text-align: center;
+	line-height: 80upx;
+	letter-spacing: 2upx;
+	font-size:36upx;
+	color: #000000;
+	position: relative;
+}
+
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+
+.list_item_btn.active::before{
+	content:"";
+	width: 60upx;
+	height: 4upx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 2upx;
+	transform: translateX(-50%);
+}
+
+.list_box{
+	width: 750upx;
+	height: auto;
+	box-sizing: border-box;
+	padding: 140upx 0;
+}
+
+.ticket_item{
+	width: 690upx;
+	height: auto;
+	margin:2upx auto 40upx auto;
+	padding:16upx 16upx;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 10upx;
+	position: relative;
+	box-shadow:2upx 4upx 10upx #ccc;
+}
+
+.ti_red{
+	width: 240upx;
+	height: auto;
+	text-align: center;
+	color: #fff;
+	background: #7A37C5;
+	padding:6upx 0;
+	border-radius: 10upx;
+	font-size: 24upx;
+	position: absolute;
+	right: 16upx;
+}
+
+.ti_location{
+	width: 64%;
+	height: auto;
+	font-size: 30upx;
+	margin:8upx 0 16upx 0;
+}
+
+.ti_name{
+	font-size: 34upx;
+	width: 64%;
+	height: auto;
+}
+
+.ti_desc,.ti_time{
+	width: 80%;
+	height: auto;
+	font-size: 30upx;
+	margin-top: 12upx;
+	display: flex;
+	flex-flow: row nowrap;
+	text-align: justify;
+}
+
+.ti_desc > .left,.ti_time > .left{
+	white-space: nowrap;
+}
+
+.get_ticker_btn{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right:16upx;
+	width: 110upx;
+	padding: 0;
+	height: 56upx;
+	line-height: 56upx;
+	font-size: 26upx;
+	color: #fff;
+	background: #7A37C5;
+	border-radius: 12upx;
+	outline: none;
+}
+
+.get_ticker_btn.null{
+	background: #999;
+}

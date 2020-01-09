@@ -1,0 +1,61 @@
+.pay_ok{
+	width: 750rpx;
+	height: 320rpx;
+	text-align: center;
+	line-height: 440rpx;
+	position: relative;
+	font-size: 30rpx;
+}
+.pay_ok > image{
+	position: absolute;
+	top:60rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 100rpx;
+	height: 0;
+}
+.pj_box{
+	position: relative;
+	width: 690rpx;
+	height: 420rpx;
+	border:1rpx solid #999;
+	margin: auto;
+	border-radius: 8rpx;
+}
+.pj_title{
+	position: absolute;
+	top:40rpx;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	color:#333333;
+	font-size: 38rpx;
+	font-weight: bold;
+}
+.pj_btn{
+	position: absolute;
+	top:290rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width:450rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	background: #c28cff;
+	color: #fff;
+	font-size: 38rpx;
+	border-radius: 40rpx;
+	letter-spacing: 4rpx;
+	z-index: 100;
+}
+.rateBox{
+	position: absolute;
+	top:44%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+
+

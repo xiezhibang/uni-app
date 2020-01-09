@@ -1,0 +1,16 @@
+.top_free_child{
+	width: 100%;
+	height: auto;
+	line-height: 1.5;
+	padding:10upx 20upx 0 20upx;
+	box-sizing: border-box;
+}
+
+.word_info{
+	width: 700upx;
+	margin:20upx auto;
+	font-size: 26upx;
+	text-align: justify;
+	letter-spacing: 2upx;
+	line-height: 1.5;
+}

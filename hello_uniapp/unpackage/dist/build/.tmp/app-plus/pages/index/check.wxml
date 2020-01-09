@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><view data-event-opts="{{[['tap',[['check']]]]}}" class="title" bindtap="__e">扫码付款</view></view></view>

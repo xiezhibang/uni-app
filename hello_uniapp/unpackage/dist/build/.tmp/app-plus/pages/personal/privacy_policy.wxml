@@ -1,0 +1,1 @@
+<view><toprow2 vue-id="1" titleval="隐私政策" bind:__l="__l"></toprow2><view class="top_free"><view class="top_free_child"><u-parse vue-id="2" content="{{content}}" bind:__l="__l"></u-parse></view></view></view>

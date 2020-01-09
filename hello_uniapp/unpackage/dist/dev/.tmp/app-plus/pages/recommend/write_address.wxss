@@ -1,0 +1,57 @@
+
+.address_item{
+	width: 750rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	height: 90rpx;
+	position: relative;
+	padding-left: 40rpx;
+	font-size: 32rpx;
+	color: #000000;
+	line-height: 90rpx;
+	border-bottom: 1rpx solid #ccc;
+}
+.address_item > image{
+	position: absolute;
+	top: 50%;
+	right: 40rpx;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	width: 20rpx;
+	height: 0;
+}
+.address_item > input{
+	position: absolute;
+	top:50%;
+	left: 200rpx;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	width: 420rpx;
+	height: 60rpx;
+	border:none;
+	outline: none;
+	font-size: 32rpx;
+}
+.address_item > .address_go{
+	position: absolute;
+	top:0;
+	left:200rpx;
+	width: 60%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #333333;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.save_btn{
+	background: #dddddd;
+}
+.purple_btn{
+	margin-top: 100rpx;
+}
+

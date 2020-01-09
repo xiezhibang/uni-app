@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "招牌商品",
+  "usingComponents": {
+    "avatar": "/components/yq-avatar/yq-avatar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收银码",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

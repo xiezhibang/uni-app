@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"word_info{ width: ",[0,700],"; margin:",[0,20]," auto; font-size: ",[0,26],"; text-align: justify; letter-spacing: ",[0,2],"; line-height: 1.5; }\n",],undefined,{path:"./pages/personal/privacy_policy.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/personal/privacy_policy.wxml') } }));

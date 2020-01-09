@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "二维码邀请",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

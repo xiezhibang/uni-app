@@ -1,0 +1,342 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/index/recommend",
+			"style": {
+				"navigationBarTitleText": "推荐"
+			}
+		},{
+			"path": "pages/index/check",
+			"style": {
+				"navigationBarTitleText": "买单"
+			}
+		},{
+			"path": "pages/index/merchant",
+			"style": {
+				"navigationBarTitleText": "商家"
+			}
+		},{
+			"path": "pages/index/personal",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页"
+			}
+		},{
+			"path": "pages/recommend/member_upgrade1",
+			"style": {
+				"navigationBarTitleText": "会员升级-权益"
+			}
+		},{
+			"path": "pages/recommend/member_upgrade2",
+			"style": {
+				"navigationBarTitleText": "会员升级"
+			}
+		},{
+			"path": "pages/recommend/product_pak",
+			"style": {
+				"navigationBarTitleText": "产品礼包"
+			}
+		},{
+			"path": "pages/recommend/pak_detail",
+			"style": {
+				"navigationBarTitleText": "礼包详情"
+			}
+		},{
+			"path": "pages/recommend/write_address",
+			"style": {
+				"navigationBarTitleText": "填写地址"
+			}
+		},{
+			"path": "pages/recommend/write_order",
+			"style": {
+				"navigationBarTitleText": "填写订单"
+			}
+		},{
+			"path": "pages/recommend/look_order",
+			"style": {
+				"navigationBarTitleText": "查看订单"
+			}
+		},{
+			"path": "pages/recommend/ewm_share",
+			"style": {
+				"navigationBarTitleText": "二维码邀请"
+			}
+		},{
+			"path": "pages/recommend/profit_list",
+			"style": {
+				"navigationBarTitleText": "推荐收益"
+			}
+		},{
+			"path": "pages/recommend/recommend_detail",
+			"style": {
+				"navigationBarTitleText": "推荐详情"
+			}
+		},{
+			"path": "pages/personal/update_phone",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},{
+			"path": "pages/personal/help_centre",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},{
+			"path": "pages/personal/user_guide",
+			"style": {
+				"navigationBarTitleText": "用户指南"
+			}
+		},{
+			"path": "pages/personal/about_us",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},{
+			"path": "pages/personal/privacy_policy",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		},{
+			"path": "pages/personal/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},{
+			"path": "pages/shop/shop_list",
+			"style": {
+				"navigationBarTitleText": "店铺列表",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/shop/shop_detail",
+			"style": {
+				"navigationBarTitleText": "店铺详情"
+			}
+		},{
+			"path": "pages/shop/collect_shop",
+			"style": {
+				"navigationBarTitleText": "店铺收藏列表"
+			}
+		},{
+			"path": "pages/shop/ticket_list",
+			"style": {
+				"navigationBarTitleText": "活动券列表"
+			}
+		},{
+			"path": "pages/shop/canuse_ticket",
+			"style": {
+				"navigationBarTitleText": "个人在某店铺活动券列表"
+			}
+		},{
+			"path": "pages/shop/pay",
+			"style": {
+				"navigationBarTitleText": "支付页面"
+			}
+		},{
+			"path": "pages/shop/evaluate",
+			"style": {
+				"navigationBarTitleText": "评价页面"
+			}
+		},{
+            "path" : "pages/city_list/city_list",
+            "style": {
+            	"navigationBarTitleText": "城市选择"
+            }
+        },{
+            "path" : "pages/merchant/login_shop",
+            "style": {
+            	"navigationBarTitleText": "门店登录"
+            }
+        },{
+            "path" : "pages/merchant/shop_content",
+            "style": {
+            	"navigationBarTitleText": "店家店面主页"
+            }
+        },{
+            "path" : "pages/merchant/shop_content2",
+            "style": {
+            	"navigationBarTitleText": "收银店面主页"
+            }
+        },{
+            "path" : "pages/merchant/shop_invite",
+            "style": {
+            	"navigationBarTitleText": "加盟邀请"
+            }
+        },{
+            "path" : "pages/merchant/apply_join",
+            "style": {
+            	"navigationBarTitleText": "申请加盟"
+            }
+        },{
+            "path" : "pages/merchant/audit_info",
+            "style": {
+            	"navigationBarTitleText": "审核详情"
+            }
+        },{
+            "path" : "pages/merchant/revenue_report",
+            "style": {
+            	"navigationBarTitleText": "营收报表"
+            }
+        },{
+            "path" : "pages/merchant/service_agreement",
+            "style": {
+            	"navigationBarTitleText": "服务协议"
+            }
+        },{
+            "path" : "pages/merchant/cashier_code",
+            "style": {
+            	"navigationBarTitleText": "收银码"
+            }
+        },{
+			"path": "pages/merchant/shop_set",
+			"style": {
+				"navigationBarTitleText": "店铺设置"
+			}
+		},{
+			"path": "pages/merchant/shop_info",
+			"style": {
+				"navigationBarTitleText": "店铺详情"
+			}
+		},{
+			"path": "pages/merchant/brand_goods",
+			"style": {
+				"navigationBarTitleText": "招牌商品"
+			}
+		},{
+			"path": "pages/merchant/bind_cashier",
+			"style": {
+				"navigationBarTitleText": "绑定收银员"
+			}
+		},{
+			"path": "pages/merchant/new_phone",
+			"style": {
+				"navigationBarTitleText": "新的手机号"
+			}
+		},{
+			"path": "pages/merchant/create_activity",
+			"style": {
+				"navigationBarTitleText": "发布活动"
+			}
+		},{
+			"path": "pages/merchant/get_info",
+			"style": {
+				"navigationBarTitleText": "领取详情"
+			}
+		},{
+			"path": "pages/merchant/shop_activity",
+			"style": {
+				"navigationBarTitleText": "店铺活动"
+			}
+		},{
+			"path": "pages/pay/pay_index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},{
+			"path": "pages/pay/bank_card",
+			"style": {
+				"navigationBarTitleText": "银行卡"
+			}
+		},{
+			"path": "pages/pay/add_card",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},{
+			"path": "pages/pay/bank_card2",
+			"style": {
+				"navigationBarTitleText": "银行卡2"
+			}
+		},{
+			"path": "pages/pay/add_card2",
+			"style": {
+				"navigationBarTitleText": "添加银行卡2"
+			}
+		},{
+			"path": "pages/pay/withdraw_deposit",
+			"style": {
+				"navigationBarTitleText": "个人提现"
+			}
+		},{
+			"path": "pages/pay/cash_log",
+			"style": {
+				"navigationBarTitleText": "个人提现记录"
+			}
+		},{
+			"path": "pages/pay/cash_log2",
+			"style": {
+				"navigationBarTitleText": "店铺提现记录"
+			}
+		},{
+			"path": "pages/pay/withdraw_deposit2",
+			"style": {
+				"navigationBarTitleText": "店铺提现"
+			}
+		}
+		
+    ],
+	"tabBar": {
+	    "color": "#666666",
+	    "selectedColor": "#7a37c5",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/tabbar/icon4.png",
+	        "selectedIconPath": "static/image/tabbar/icon7.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/index/recommend",
+	        "iconPath": "static/image/tabbar/icon2.png",
+	        "selectedIconPath": "static/image/tabbar/icon8.png",
+	        "text": "推荐"
+	    },{
+	        "pagePath": "pages/index/check",
+	        "iconPath": "static/image/tabbar/icon9.png",
+	        "selectedIconPath": "static/image/tabbar/icon10.png",
+	        "text": "买单"
+	    },{
+	        "pagePath": "pages/index/merchant",
+	        "iconPath": "static/image/tabbar/icon1.png",
+	        "selectedIconPath": "static/image/tabbar/icon5.png",
+	        "text": "商家"
+	    },{
+	        "pagePath": "pages/index/personal",
+	        "iconPath": "static/image/tabbar/icon3.png",
+	        "selectedIconPath": "static/image/tabbar/icon6.png",
+	        "text": "我的"
+	    }]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "聚富财码",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"onReachBottomDistance":20,
+		"app-plus":{
+			"titleNView": false
+		}
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+	
+}

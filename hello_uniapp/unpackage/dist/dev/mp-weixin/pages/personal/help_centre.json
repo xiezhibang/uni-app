@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "帮助中心",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

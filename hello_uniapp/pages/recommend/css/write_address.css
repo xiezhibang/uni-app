@@ -1,0 +1,54 @@
+
+.address_item{
+	width: 750upx;
+	box-sizing: border-box;
+	height: 90upx;
+	position: relative;
+	padding-left: 40upx;
+	font-size: 32upx;
+	color: #000000;
+	line-height: 90upx;
+	border-bottom: 1upx solid #ccc;
+}
+
+.address_item > image{
+	position: absolute;
+	top: 50%;
+	right: 40upx;
+	transform: translateY(-50%);
+	width: 20upx;
+	height: 0;
+}
+
+.address_item > input{
+	position: absolute;
+	top:50%;
+	left: 200upx;
+	transform: translateY(-50%);
+	width: 420upx;
+	height: 60upx;
+	border:none;
+	outline: none;
+	font-size: 32upx;
+}
+
+.address_item > .address_go{
+	position: absolute;
+	top:0;
+	left:200upx;
+	width: 60%;
+	height: 100%;
+	box-sizing: border-box;
+	color: #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.save_btn{
+	background: #dddddd;
+}
+
+.purple_btn{
+	margin-top: 100upx;
+}

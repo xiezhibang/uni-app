@@ -1,0 +1,157 @@
+.fixBox{
+	position: fixed;
+	top:calc(128rpx + var(--status-bar-height));
+	left:0;
+	background: #fff;
+	z-index: 1000;
+	width: 750rpx;
+	height: auto;
+	padding-bottom: 10rpx;
+	
+}
+.list_control{
+	width: 750rpx;
+	height: 80rpx;
+	box-sizing: border-box;
+	padding:0 125rpx;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.list_item_btn{
+	width: 200rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	letter-spacing: 2rpx;
+	font-size:36rpx;
+	color: #000000;
+	position: relative;
+}
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+.list_item_btn.active::before{
+	content:"";
+	width: 60rpx;
+	height: 4rpx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 2rpx;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.sys_msg_line{
+	position: relative;
+	height: 60rpx;
+	width: 750rpx;
+	background: #ffd9dc;
+}
+.sys_msg_line > image{
+	width: 32rpx;
+	position: absolute;
+	top:50%;
+	left: 30rpx;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	height: 0;
+}
+.msg_box{
+	width: 650rpx;
+	margin-left: 70rpx;
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 30rpx;
+	color: #ff4e5e;
+	line-height: 60rpx;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.list_out{
+	width: 750rpx;
+	padding-top: 140rpx;
+}
+.shop_block{
+	position: relative;
+	width: 750rpx;
+	padding:30rpx 30rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #F2F2F2;
+}
+.cube.one{
+	width:210rpx;
+	min-height: 180rpx;
+	max-height:210rpx;
+	overflow: hidden;
+}
+.cube.two{
+	width: 480rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.line_out{
+	width: 100%;
+	font-size: 32rpx;
+	margin-bottom: 10rpx;
+	color: #333333;
+	overflow: hidden;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.status_tag{
+	width: 30%;
+	text-align: right;
+	white-space: nowrap;
+}
+.lineTit{
+	width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.lineWord{
+	width: 100%;
+	font-size: 30rpx;
+	color: #333333;
+}
+.lineWord.long{
+	width: 128%;
+}
+.cube > image{
+	width: 190rpx;
+	height: 0;
+	display: block;
+}
+
+

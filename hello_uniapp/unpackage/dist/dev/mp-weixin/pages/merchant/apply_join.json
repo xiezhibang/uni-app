@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请加盟",
+  "usingComponents": {
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress",
+    "avatar": "/components/yq-avatar/yq-avatar"
+  }
+}

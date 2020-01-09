@@ -1,0 +1,120 @@
+.head_row{
+	height: 128upx;
+	background: #fff;
+	text-align: center;
+	line-height:128upx;
+	color:#000;
+	font-size: 38upx;
+	box-sizing: border-box;
+	border-bottom: 1upx solid #f6f6f6;
+	position: relative;
+}
+
+.head_row > .back_before{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100upx;
+	height: 128upx;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.head_row > .back_before > image{
+	width: 22upx;
+	position: relative;
+	top:42upx;
+	height: 0;
+}
+
+.addCard{
+	width: 200upx;
+	height: 128upx;
+	text-align: right;
+	line-height: 128upx;
+	padding-right: 40upx;
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	right: 0;
+	font-size: 60upx;
+	color:#333;
+
+}
+
+page{
+	background: #f4f4f4;
+}
+
+.main_block{
+	width: 700upx;
+	height: auto;
+	padding:25upx 25upx;
+}
+
+.bank_item{
+	width: 700upx;
+	height: 200upx;
+	border-radius: 20upx;
+	margin-bottom: 20upx;
+	background:#E4D667;
+	position: relative;
+	color: #fff;
+	box-shadow: 2upx 4upx 6upx #ccc;
+}
+
+.bank_item.double{
+	background:#EC9D41;
+}
+
+.del_img{
+	width: 40upx;
+	height: 40upx;
+	position: absolute;
+	top:26upx;
+	right: 40upx;
+}
+
+.bank_name{
+	width: 100%;
+	height: 100upx;
+	padding:0 80upx 0 160upx;
+	box-sizing: border-box;
+	line-height: 100upx;
+	font-size: 32upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.bank_code{
+	width: 100%;
+	padding:0 80upx 0 160upx;
+	box-sizing: border-box;
+	font-size: 30upx;
+}
+
+.bank_icon{
+	position: absolute;
+	top:20upx;
+	left: 20upx;
+	width: 70upx;
+	height: 70upx;
+	background: #F2F2F2;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 70upx;
+	font-size: 32upx;
+	color: #00BFFF;
+}
+
+.bank_icon > image{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 100%;
+}

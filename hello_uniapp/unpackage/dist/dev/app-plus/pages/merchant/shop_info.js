@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"img_part{ width: ",[0,730],"; height: 0; display: block; margin: auto; }\nbody{ background: #F2F2F2; }\n.",[1],"purple_btn.",[1],"up{ position: fixed; z-index: 100; bottom:",[0,200],"; left:",[0,40],"; }\n.",[1],"purple_btn.",[1],"ok{ position: fixed; z-index: 100; bottom:",[0,80],"; left:",[0,40],"; }\n",],undefined,{path:"./pages/merchant/shop_info.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/merchant/shop_info.wxml') } }));

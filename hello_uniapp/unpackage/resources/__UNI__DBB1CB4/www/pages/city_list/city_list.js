@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"backHome{ position: fixed; width: ",[0,100],"; height: ",[0,128],"; top:var(--status-bar-height); left: 0; z-index: 11000; opacity: 0; }\n",],undefined,{path:"./pages/city_list/city_list.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/city_list/city_list.wxml') } }));

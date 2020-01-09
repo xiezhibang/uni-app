@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "服务协议",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

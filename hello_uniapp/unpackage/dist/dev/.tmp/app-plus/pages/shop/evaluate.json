@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "评价页面",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

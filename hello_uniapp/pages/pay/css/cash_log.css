@@ -1,0 +1,97 @@
+.list_control{
+	width: 750upx;
+	height: 80upx;
+	box-sizing: border-box;
+	padding:0 125upx;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	position: fixed;
+	top:calc(128upx + var(--status-bar-height));
+	left:0;
+	background: #fff;
+	z-index: 1000;
+	/* #ifdef MP-WEIXIN */
+	top:calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+
+.list_item_btn{
+	width: 200upx;
+	height: 80upx;
+	text-align: center;
+	line-height: 80upx;
+	letter-spacing: 2upx;
+	font-size:36upx;
+	color: #000000;
+	position: relative;
+}
+
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+
+.list_item_btn.active::before{
+	content:"";
+	width: 60upx;
+	height: 4upx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 6upx;
+	transform: translateX(-50%);
+}
+
+.log_list_box{
+	padding-top: 80upx;
+}
+
+.log_list_box,.month_list_box{
+	width: 750upx;
+	height: auto;
+}
+
+.month_line{
+	width: 100%;
+	height: 60upx;
+	line-height: 60upx;
+	box-sizing: border-box;
+	padding-left: 30upx;
+	color:#999;
+	background: #f2f2f2;
+	font-size: 32upx;
+}
+
+.log_item{
+	width: 100%;
+	position: relative;
+	height: 140upx;
+	border-bottom: 1upx solid #f2f2f2;
+}
+
+.money_num{
+	position: absolute;
+	right: 60upx;
+	top: 50%;
+	transform: translateY(-50%);
+	color: red;
+}
+
+.log_desc{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 60upx;
+	text-align: left;
+	width: 500upx;
+	font-size: 32upx;
+	color: #000000;
+}
+
+.log_time{
+	width: 360upx;
+	font-size: 26upx;
+	color: #999999;
+	margin-top: 4upx;
+}

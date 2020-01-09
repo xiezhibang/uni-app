@@ -1,0 +1,1 @@
+<view name="rateShow"><view class="rate_wrap"><block wx:for="{{num}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block wx:if="{{num>=1&&num<=5}}"><image class="st_imgs" style="{{'width:'+(size+'upx')+';'+('height:'+(size+'upx')+';')+('margin-right:'+(mrt+'upx')+';')}}" src="{{$root.m0}}"></image></block></block></view></view>

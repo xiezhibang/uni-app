@@ -1,0 +1,43 @@
+.product_image{
+	width: 750upx;
+	height: 100upx;
+	display: block;
+}
+
+.product_name{
+	width: 750upx;
+	padding:0 40upx;
+	font-size: 30upx;
+	color: #333333;
+	box-sizing: border-box;
+	margin-top: 20upx;
+}
+
+.product_price{
+	width: 750upx;
+	padding:10upx 40upx;
+	font-size: 34upx;
+	color: #FF0000;
+	box-sizing: border-box;
+}
+
+.detail_title{
+	width: 750upx;
+	text-align: center;
+	margin:20upx 0 10upx 0;
+	font-size: 36upx;
+	color: #333333;
+}
+
+.product_detail{
+	width: 750upx;
+	height: 0;
+	display: block;
+}
+
+.purple_btn.fix{
+	position: fixed;
+	bottom: 50upx;
+	left:40upx;
+	z-index: 100;
+}

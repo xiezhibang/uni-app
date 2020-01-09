@@ -1,0 +1,141 @@
+page{
+	background: #f0d3aa;
+}
+
+.goUpGrade{
+	width: 220upx;
+	height: 60upx;
+	background: #DAA520;
+	font-size: 30upx;
+	color: #fff;
+	text-align: center;
+	line-height: 60upx;
+	border-radius: 10upx;
+	margin-top:10upx;
+}
+
+.headImg{
+	width: 100%;
+	height: 0;
+	display: block;
+}
+
+.content_box{
+	width: 750upx;
+	position: relative;
+}
+
+.white_block{
+	width: 708upx;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: #fff;
+	padding:50upx 10upx 50upx 40upx;
+	box-sizing: border-box;
+	border-radius: 24upx;
+}
+
+.white_block.two{
+	margin-top: 30upx;
+	padding:36upx 10upx 180upx 40upx;
+	border-radius: 0;
+	border-top-left-radius: 24upx;
+	border-top-right-radius: 24upx;
+}
+
+.ball_box{
+	position: absolute;
+	top:10upx;
+	left: 20upx;
+	width: 40upx;
+	height: 40upx;
+	background: linear-gradient(top left,#f4e7d2,#efcf9c);
+	border-radius: 100%;
+}
+
+.big_tit_box{
+	position: relative;
+	width: 260upx;
+	height: 30upx;
+	background: #f2d8b0;
+	margin-top: 40upx;
+}
+.tit_text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 40upx;
+	letter-spacing: 2upx;
+}
+
+.part_box{
+	width: 100%;
+	height: auto;
+	margin:16upx auto;
+	font-size: 26upx;
+	color: #9a6e37;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.part_box.tit{
+	margin:32upx 0 15upx 0;
+}
+
+.left_cube{
+	width: 9%;
+}
+
+.right_cube{
+	width: 91%;
+	text-align: justify;
+}
+
+.big_ball{
+	color: #fff;
+	background: #fd7b14;
+	border-radius: 100%;
+	width: 40upx;
+	height: 40upx;
+	text-align: center;
+	line-height: 40upx;
+	font-size: 34upx;
+	margin-top: 2upx;
+}
+
+.small_ball{
+	background: #fd7b14;
+	border-radius: 100%;
+	width: 20upx;
+	height: 20upx;
+	margin:8upx 0 0 10upx;
+}
+
+.big_tit_letter{
+	font-size: 34upx;
+}
+
+.color_word{
+	color:#fd852b;
+}
+
+.left_img{
+	width: 60upx;
+	height: 0;
+	position: absolute;
+	left: -21upx;
+	bottom:-280upx;
+	z-index: 100;
+}
+
+.bottom_img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	display: block;
+	z-index: 100;
+}

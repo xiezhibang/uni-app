@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "产品礼包",
+  "usingComponents": {
+    "toprow": "/components/toprow",
+    "no-data": "/components/noData"
+  }
+}

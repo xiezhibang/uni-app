@@ -1,0 +1,186 @@
+.title_padding{
+	background: #fff;
+}
+
+.top_box{
+	width: 750upx;
+	height: auto;
+	position: relative;
+	background: #000000;
+}
+
+.bg_img{
+	width: 750upx;
+	height: 450upx;
+	display: block;
+	opacity: 0.5;
+}
+
+
+
+.p_data{
+	width: 630upx;
+	height: 140upx;
+	background: #fff;
+	bottom:0;
+	left: 60upx;
+	transform: translateY(50%);
+	border-radius: 16upx;
+	box-shadow: 0 3upx 10upx #ccc;
+}
+
+.p_data::before{
+	content: "";
+	width: 1upx;
+	height: 80upx;
+	background: #ccc;
+	position: absolute;
+	top:30upx;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.p_money_left,.p_money_right{
+	width: 50%;
+	top:50%;
+	color:#999;
+	font-size: 24rpx;
+	transform: translateY(-50%);
+	text-align: center;
+	box-sizing: border-box;
+	padding:0 10upx
+}
+.p_money_left{
+	left: 0;
+}
+.p_money_right{
+	right: 0;
+}
+
+.p_money_left > view,.p_money_right > view{
+	font-size: 32upx;
+	color: #000;
+	width: 100%;
+	height: auto;
+	word-break:break-all;
+}
+
+.p_money_left > text,.p_money_right > text{
+	font-size: 26upx;
+	color: #7a37c5;
+	padding:4upx 20upx;
+	text-decoration: underline;
+}
+
+
+.back_box{
+	width: 60upx;
+	height: auto;
+	border-radius: 6upx;
+	position: absolute;
+	top:50upx;
+	left: 10upx;
+	padding:8upx 0;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+	z-index: 1000;
+}
+
+.back_box > image{
+	width: 20upx;
+	height: 0;
+	margin: auto;
+	display: block;
+}
+
+.shop_head{
+	position: absolute;
+	top:48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 750upx;
+	height: auto;
+}
+
+.shop_head > image{
+	width: 170upx;
+	height: 170upx;
+	border-radius: 100%;
+	display: block;
+	margin:auto;
+}
+
+.shop_name,.shop_id{
+	width:100%;
+	height: 40upx;
+	font-size: 34upx;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 6upx;
+}
+
+.shop_id{
+	margin-top:2upx;
+	margin-bottom: 10upx;
+}
+
+.shop_status{
+	width: 120upx;
+	height: 40upx;
+	line-height: 40upx;
+	background: #fff;
+	border-radius: 10upx;
+	margin: auto;
+	font-size: 28upx;
+	text-align: center;
+	color: #7A37C5;
+}
+
+.control_list{
+	width: 750upx;
+	height: auto;
+	padding-top: 110upx;
+}
+
+
+.mb_icon{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 30upx;
+	width: 30upx;
+	height: 0;
+}
+
+.mb_arrow{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	right: 30upx;
+	width: 14upx;
+	height: 0;
+}
+
+.model_bar2{
+	width: 750upx;
+	height: 80upx;
+	position: relative;
+	font-size: 28upx;
+	color:#333333;
+	padding-left: 80upx;
+	box-sizing: border-box;
+	line-height: 80upx;
+}
+
+.model_bar2::before{
+	content: "";
+	width: 690upx;
+	height: 1upx;
+	background: #F2F2F2;
+	position: absolute;
+	left: 30upx;
+	bottom: 0;
+}

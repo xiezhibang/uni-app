@@ -1,0 +1,324 @@
+page{
+	position: relative;
+}
+.head_row{
+	height: 128rpx;
+	background: #fff;
+	text-align: center;
+	line-height:128rpx;
+	color:#000;
+	font-size: 38rpx;
+	box-sizing: border-box;
+	border-bottom: 1rpx solid #f6f6f6;
+	position: relative;
+}
+.head_row > .back_before{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100rpx;
+	height: 128rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.head_row > .back_before > image{
+	width: 22rpx;
+	position: relative;
+	top:42rpx;
+	height: 0;
+}
+.cash_log_entrance{
+	width: 200rpx;
+	height: 50rpx;
+	text-align: center;
+	line-height: 50rpx;
+	position: absolute;
+	top:50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	font-size: 26rpx;
+	color:#7a37c5;
+	text-decoration: underline;
+}
+.line_coat{
+	width: 580rpx;
+	height: auto;
+	margin:auto;
+	padding-bottom: 40rpx;
+}
+.line_logo{
+	width: 128rpx;
+	height: 128rpx;
+	margin: 40rpx auto;
+	background: #f2f2f2;
+	position: relative;
+	line-height: 180rpx;
+	text-align: center;
+	font-size: 24rpx;
+	color: #999;
+	border-radius: 6rpx;
+	overflow: hidden;
+}
+.upImg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	/* z-index: 100; */
+}
+.camera_icon{
+	position: absolute;
+	top:22%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 42rpx;
+	height: 0;
+}
+.line_input{
+	width: 100%;
+	height: 70rpx;
+	border-bottom: 1rpx solid #F2F2F2;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.left,.right{
+	width:28%;
+	height: 100%;
+	position: relative;
+	line-height: 70rpx;
+	font-size: 30rpx;
+	color: #000000;
+	text-align: right;
+	white-space: nowrap;
+}
+.right{
+	width: 72%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: left;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column nowrap;
+	        flex-flow: column nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.ipt{
+	width:100%;
+	height: 50rpx;
+	border:none;
+	outline: none;
+	font-size: 28rpx;
+	color: #333333;
+}
+.ipt.yzm{
+	width: 60%;
+}
+.check_code{
+	width: 140rpx;
+	height: 50rpx;
+	position: absolute;
+	right: 0;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 48rpx;
+	bottom: 10rpx;
+	color:#7a37c5;
+	border:1rpx solid #7a37c5;
+	box-sizing: border-box;
+	border-radius: 6rpx;
+}
+.check_code.wait{
+	width: 180rpx;
+	color:#999;
+	border: 1rpx solid #999;
+}
+.word_line{
+	width: 100%;
+	padding:30rpx 0;
+	font-size: 32rpx;
+	color: #000000;
+	font-weight: bold;
+}
+.box_line_wrap{
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.box_line_wrap > .pic_wrap{
+	width: 50%;
+}
+.box_line_wrap > .word_line{
+	width: 50%;
+}
+.sfz_box{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.sfz_photo{
+	position: relative;
+	width: 250rpx;
+	height: 158rpx;
+	background: #F2F2F2;
+	text-align: center;
+	line-height: 190rpx;
+	font-size: 24rpx;
+	color: #999;
+	margin-right: 40rpx;
+	border-radius: 6rpx;
+	overflow: hidden;
+}
+.picture_box{
+	width: 250rpx;
+	height: 358rpx;
+	background: #f2f2f2;
+	position: relative;
+	border-radius: 6rpx;
+	overflow: hidden;
+}
+.picture_box.shop{
+	width: 250rpx;
+	height: 150rpx;
+}
+.picture_box > .camera_icon{
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.last_word{
+	width: 100%;
+	margin:24rpx 0 120rpx 0;
+	font-size: 26rpx;
+	text-align: center;
+	color: #000000;
+}
+.last_word > text{
+	color: #7da0fe;
+	text-decoration: underline;
+}
+.frame_box{
+	position:fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	z-index: 1000;
+}
+.box_div{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	width: 600rpx;
+	height: auto;
+	background: #fff;
+	border-radius: 10rpx;
+	box-shadow: 2rpx 3rpx 5rpx #F2F2F2;
+}
+.box_title{
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	font-size: 38rpx;
+	color: #7A37C5;
+	border-bottom: 2rpx solid #F2F2F2;
+	box-sizing: border-box;
+}
+.box_control{
+	margin:20rpx 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.box_btn{
+	width: 200rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	text-align: center;
+	font-size: 30rpx;
+	background: #f2f2f2;
+	border-radius: 10rpx;
+	letter-spacing: 4rpx;
+	color: #333;
+	margin: 0 20rpx;
+}
+.box_btn.cb{
+	color: #fff;
+	background: #7E3EC7;
+}
+.check_boss{
+	width: 100%;
+}
+.check_block{
+	padding-left: 6rpx;
+	box-sizing: border-box;
+	width: 50%;
+	height: 70rpx;
+	font-size: 36rpx;
+	line-height: 70rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+}
+.box_content{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.check_block > .check_item{
+	-webkit-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+
+

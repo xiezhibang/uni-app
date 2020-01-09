@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绑定收银员",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

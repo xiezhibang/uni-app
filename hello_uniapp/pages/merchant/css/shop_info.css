@@ -1,0 +1,24 @@
+.img_part{
+	width: 730upx;
+	height: 0;
+	display: block;
+	margin: auto;
+}
+
+page{
+	background: #F2F2F2;
+}
+
+.purple_btn.up{
+	position: fixed;
+	z-index: 100;
+	bottom:200upx;
+	left:40upx;
+}
+
+.purple_btn.ok{
+	position: fixed;
+	z-index: 100;
+	bottom:80upx;
+	left:40upx;
+}

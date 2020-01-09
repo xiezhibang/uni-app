@@ -1,0 +1,60 @@
+.ticket_block{
+	width: 700upx;
+	height: 200upx;
+	margin:25upx auto;
+	display: flex;
+	flex-flow: row nowrap;
+	box-shadow: 2upx 2upx 4upx #EEEEEE,-2upx -2upx 4upx #EEEEEE;
+}
+
+.imgs_item{
+	width: 200upx;
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	border-right: 1upx solid #F2F2F2;
+}
+
+.tk_type_img{
+	width: 130upx;
+	height: 0;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+.tk_use_img{
+	width: 110upx;
+	position: absolute;
+	top:28%;
+	left: 27%;
+	height: 0;
+	z-index: 10;
+}
+
+.words_item{
+	width: 500upx;
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	font-size: 24upx;
+}
+
+.tk_name{
+	width: 100%;
+	padding-left: 40upx;
+	box-sizing: border-box;
+	font-size: 30upx;
+	color: #333333;
+	margin-bottom: 16upx;
+}
+
+.tk_time{
+	width: 100%;
+	padding-left: 40upx;
+	box-sizing: border-box;
+	font-size: 24upx;
+	color: #999999;
+	margin-bottom: 5upx;
+}

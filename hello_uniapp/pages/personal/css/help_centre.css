@@ -1,0 +1,46 @@
+.top_free_child{
+	width: 100%;
+	height: auto;
+	line-height: 1.5;
+	padding:10upx 20upx 0 20upx;
+	box-sizing: border-box;
+}
+
+.title_line{
+	width: 750upx;
+	margin: auto;
+	height: 90upx;
+	font-size: 40upx;
+	color: #000000;
+	line-height: 90upx;
+	font-weight: bold;
+	border-bottom: 1upx solid #f6f6f6;
+	box-sizing: border-box;
+	padding-left: 30upx;
+}
+
+.title_line.top{
+	margin-top: 20upx;
+}
+
+.item_line{
+	width: 750upx;
+	height: 80upx;
+	line-height: 80upx;
+	font-size: 36upx;
+	color: #333;
+	position: relative;
+	margin: auto;
+	border-bottom: 1upx solid #f6f6f6;
+	box-sizing: border-box;
+	padding-left: 30upx;
+}
+
+.item_line > image{
+	width: 16upx;
+	height: 0;
+	position: absolute;
+	top:50%;
+	right: 40upx;
+	transform: translateY(-50%);
+}

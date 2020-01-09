@@ -1,0 +1,122 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/recommend",
+    "pages/index/check",
+    "pages/index/merchant",
+    "pages/index/personal",
+    "pages/login/login",
+    "pages/recommend/member_upgrade1",
+    "pages/recommend/member_upgrade2",
+    "pages/recommend/product_pak",
+    "pages/recommend/pak_detail",
+    "pages/recommend/write_address",
+    "pages/recommend/write_order",
+    "pages/recommend/look_order",
+    "pages/recommend/ewm_share",
+    "pages/recommend/profit_list",
+    "pages/recommend/recommend_detail",
+    "pages/personal/update_phone",
+    "pages/personal/help_centre",
+    "pages/personal/user_guide",
+    "pages/personal/about_us",
+    "pages/personal/privacy_policy",
+    "pages/personal/message",
+    "pages/shop/shop_list",
+    "pages/shop/shop_detail",
+    "pages/shop/collect_shop",
+    "pages/shop/ticket_list",
+    "pages/shop/canuse_ticket",
+    "pages/shop/pay",
+    "pages/shop/evaluate",
+    "pages/city_list/city_list",
+    "pages/merchant/login_shop",
+    "pages/merchant/shop_content",
+    "pages/merchant/shop_content2",
+    "pages/merchant/shop_invite",
+    "pages/merchant/apply_join",
+    "pages/merchant/audit_info",
+    "pages/merchant/revenue_report",
+    "pages/merchant/service_agreement",
+    "pages/merchant/cashier_code",
+    "pages/merchant/shop_set",
+    "pages/merchant/shop_info",
+    "pages/merchant/brand_goods",
+    "pages/merchant/bind_cashier",
+    "pages/merchant/new_phone",
+    "pages/merchant/create_activity",
+    "pages/merchant/get_info",
+    "pages/merchant/shop_activity",
+    "pages/pay/pay_index",
+    "pages/pay/bank_card",
+    "pages/pay/add_card",
+    "pages/pay/bank_card2",
+    "pages/pay/add_card2",
+    "pages/pay/withdraw_deposit",
+    "pages/pay/cash_log",
+    "pages/pay/cash_log2",
+    "pages/pay/withdraw_deposit2"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聚富财码",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "onReachBottomDistance": 20,
+    "titleNView": false
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#7a37c5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabbar/icon4.png",
+        "selectedIconPath": "static/image/tabbar/icon7.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/recommend",
+        "iconPath": "static/image/tabbar/icon2.png",
+        "selectedIconPath": "static/image/tabbar/icon8.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/index/check",
+        "iconPath": "static/image/tabbar/icon9.png",
+        "selectedIconPath": "static/image/tabbar/icon10.png",
+        "text": "买单"
+      },
+      {
+        "pagePath": "pages/index/merchant",
+        "iconPath": "static/image/tabbar/icon1.png",
+        "selectedIconPath": "static/image/tabbar/icon5.png",
+        "text": "商家"
+      },
+      {
+        "pagePath": "pages/index/personal",
+        "iconPath": "static/image/tabbar/icon3.png",
+        "selectedIconPath": "static/image/tabbar/icon6.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "聚富财码",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {
+    "toprow": "/components/toprow",
+    "toprow2": "/components/toprow2",
+    "rate-show": "/components/rateShow",
+    "no-data": "/components/noData",
+    "loading": "/components/loading"
+  }
+}

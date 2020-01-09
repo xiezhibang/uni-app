@@ -1,0 +1,44 @@
+.shop_item{
+	width: 690rpx;
+	height: auto;
+	padding:30rpx 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-bottom: 1rpx solid #eee;
+	position: relative;
+	margin: auto;
+}
+.shop_item > image{
+	width: 200rpx;
+	display: block;
+	height: 100rpx;
+}
+.shop_info{
+	position: absolute;
+	top:50%;
+	right: 0;
+	width: 460rpx;
+	height: auto;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.shop_name{
+	width: 100%;
+	font-size: 36rpx;
+	margin-bottom: 10rpx;
+}
+.shop_other{
+	width: 100%;
+	font-size: 28rpx;
+	color: #999999;
+	text-align: right;
+	position: relative;
+}
+.shop_star{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+

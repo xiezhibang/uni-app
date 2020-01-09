@@ -1,0 +1,151 @@
+.fixBox{
+	position: fixed;
+	top:calc(128upx + var(--status-bar-height));
+	left:0;
+	background: #fff;
+	z-index: 1000;
+	width: 750upx;
+	height: auto;
+	padding-bottom: 10upx;
+	/* #ifdef MP-WEIXIN */
+	top:calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.list_control{
+	width: 750upx;
+	height: 80upx;
+	box-sizing: border-box;
+	padding:0 125upx;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+
+.list_item_btn{
+	width: 200upx;
+	height: 80upx;
+	text-align: center;
+	line-height: 80upx;
+	letter-spacing: 2upx;
+	font-size:36upx;
+	color: #000000;
+	position: relative;
+}
+
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+
+.list_item_btn.active::before{
+	content:"";
+	width: 60upx;
+	height: 4upx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 2upx;
+	transform: translateX(-50%);
+}
+
+.sys_msg_line{
+	position: relative;
+	height: 60upx;
+	width: 750upx;
+	background: #ffd9dc;
+}
+
+.sys_msg_line > image{
+	width: 32upx;
+	position: absolute;
+	top:50%;
+	left: 30upx;
+	transform: translateY(-50%);
+	height: 0;
+}
+
+.msg_box{
+	width: 650upx;
+	margin-left: 70upx;
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 30upx;
+	color: #ff4e5e;
+	line-height: 60upx;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.list_out{
+	width: 750upx;
+	padding-top: 140upx;;
+}
+
+.shop_block{
+	position: relative;
+	width: 750upx;
+	padding:30upx 30upx;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-bottom: 1upx solid #F2F2F2;
+}
+
+
+.cube.one{
+	width:210upx;
+	min-height: 180upx;
+	max-height:210upx;
+	overflow: hidden;
+}
+
+.cube.two{
+	width: 480upx;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+.line_out{
+	width: 100%;
+	font-size: 32upx;
+	margin-bottom: 10upx;
+	color: #333333;
+	overflow: hidden;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	
+}
+
+.status_tag{
+	width: 30%;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.lineTit{
+	width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.lineWord{
+	width: 100%;
+	font-size: 30upx;
+	color: #333333;
+}
+
+.lineWord.long{
+	width: 128%;
+}
+
+.cube > image{
+	width: 190upx;
+	height: 0;
+	display: block;
+}

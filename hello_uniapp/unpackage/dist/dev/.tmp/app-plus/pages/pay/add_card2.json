@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加银行卡2",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

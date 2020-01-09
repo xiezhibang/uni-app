@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新的手机号",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

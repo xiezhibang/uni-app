@@ -1,0 +1,151 @@
+
+.list_control{
+	width: 750upx;
+	height: 90upx;
+	display: flex;
+	flex-flow: row nowrap;
+	position: fixed;
+	left: 0;
+	top:calc(128upx + var(--status-bar-height));
+	z-index: 3000;
+	background: #fff;
+	/* #ifdef MP-WEIXIN */
+	top:calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.top_free{
+	padding-top: calc(218upx + var(--status-bar-height));
+	/* #ifdef MP-WEIXIN */
+	padding-top:calc(262upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.list_item_btn{
+	width: 250upx;
+	height: 80upx;
+	text-align: center;
+	line-height: 80upx;
+	letter-spacing: 2upx;
+	font-size:36upx;
+	color: #000000;
+	position: relative;
+}
+
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+
+.list_item_btn.active::before{
+	content:"";
+	width: 60upx;
+	height: 4upx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 8upx;
+	transform: translateX(-50%);
+}
+
+.fd_list_item,.mc_list_item,.pn_list_item{
+	position: relative;
+	width: 720upx;
+	height: 140upx;
+	margin: auto;
+	border-bottom: 1upx solid #CCCCCC;
+}
+
+.mc_list_item,.pn_list_item{
+	height: 250upx;
+}
+
+.fd_list_item > image{
+	width: 100upx;
+	height: 100upx;
+	position: absolute;
+	top:50%;
+	left:2;
+	transform: translateY(-50%);
+	background: #F2F2F2;
+	border-radius: 100%;
+}
+
+.fd_info{
+	width: 590upx;
+	position: absolute;
+	top:50%;
+	right: 0;
+	transform: translateY(-50%);
+	font-size: 26upx;
+	color:#666;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.fd_info > .name{
+	font-size: 32upx;
+	color: #000000;
+}
+
+.mc_list_item > image,.pn_list_item > image{
+	width: 194upx;
+	height:194upx;
+	background: #F2F2F2;
+	position: absolute;
+	top:50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.info_item{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 510upx;
+	font-size: 26upx;
+	color: #000000;
+	line-height: 1.5;
+	text-align: justify;
+	word-break:break-all;
+}
+
+.btn_r{
+	width: 120upx;
+	height: 46upx;
+	text-align: center;
+	line-height: 46upx;
+	font-size: 24upx;
+	outline: none;
+	border:none;
+	padding:0;
+	position: absolute;
+	right: 2upx;
+	bottom: -2upx;
+	border-radius: 10upx;
+}
+
+.btn_r.btn_pass{
+	background: #7a37c5;
+	color:#fff;
+}
+
+.btn_r.btn_no_pass{
+	background: #ddd;
+	color: #666;
+}
+
+.info_item > .title{
+	font-size: 34upx;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 6upx;
+}
+
+.info_item > .time{
+	color: #999;
+	margin-top:8upx;
+}

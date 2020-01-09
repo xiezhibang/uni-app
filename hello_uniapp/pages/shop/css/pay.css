@@ -1,0 +1,207 @@
+.img_box{
+	width: 750upx;
+	height: 300upx;
+	position: relative;
+}
+
+.goods_info{
+	width: 150upx;
+	position: absolute;
+	top:30upx;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.goods_info > image{
+	width: 100%;
+	height: 0;
+	display: block;
+}
+
+.goods_name{
+	position: absolute;
+	bottom:-6upx;
+	left: 50%;
+	transform: translate(-50%,100%);
+	width: 620upx;
+	font-size: 34upx;
+	text-align: center;
+}
+
+.pay_title{
+	font-size: 32upx;
+	padding-left: 30upx;
+	margin-bottom: 20upx;
+}
+
+.pay_input{
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 30upx 6upx 30upx;
+	font-size: 60upx;
+}
+
+.pay_input > input{
+	width: 560upx;
+	height: 60upx;
+	position: relative;
+	top:4upx;
+	left: 10upx;
+	border-bottom: 1upx solid #ccc;
+	display: inline-block;
+	font-size: 36upx;
+}
+
+.pay_wallet{
+	width: 666upx;
+	padding-left: 30upx;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 26upx;
+	color:#999999;
+}
+
+.pay_wallet > view{
+	width: 50%;
+}
+
+.pay_wallet > .right{
+	text-align: right;
+}
+
+.current_gold{
+	padding-left: 30upx;
+	color:#7A37C5;
+	font-size: 26upx;
+	margin:20upx 0;
+}
+
+.pay_btn{
+	margin:50upx auto;
+}
+
+.sys_tip{
+	margin-top: 20upx;
+	padding:0 30upx;
+	box-sizing: border-box;
+	width: 100%;
+	color: #999999;
+	font-size: 26upx;
+	line-height: 2;
+}
+
+.use_ticket_panel{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+	z-index: 12000;
+}
+
+.ticket_box{
+	width:580upx;
+	height: auto;
+	background: #FFFFFF;
+	border-radius: 16upx;
+}
+
+.ticket_option{
+	width: 100%;
+	box-sizing: border-box;
+	padding:20upx 20upx 10upx 20upx;
+}
+
+.tk_line{
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 6upx;
+}
+
+.tk_word{
+	width: 60%;
+	font-size: 30upx;
+	color: #333333;
+}
+
+.tk_word.bold{
+	font-weight: bold;
+}
+
+.tk_num{
+	width: 40%;
+	text-align:right;
+	font-size: 30upx;
+}
+
+.tk_num.rft{
+	color: red;
+}
+
+.tk_num > text{
+	font-size: 24upx;
+}
+
+.pay_type{
+	width: 100%;
+	padding:2upx 20upx;
+	box-sizing: border-box;
+}
+
+.pay_line{
+	width: 100%;
+	height: 50upx;
+	line-height: 50upx;
+	position: relative;
+	font-size: 30upx;
+	margin-bottom:10upx;
+}
+
+.pay_line > image{
+	width: 36upx;
+	height: 0;
+	display: inline-block;
+	margin-right: 20upx;
+	position: relative;
+	top:4upx;
+}
+
+.pay_line > radio{
+	position: absolute;
+	top:50%;
+	right: 0;
+	transform: translateY(-50%) scale(0.7);
+}
+
+.btn_group{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.pay_confirm{
+	width: 50%;
+	height: 80upx;
+	line-height: 80upx;
+	text-align: center;
+	border-top: 2upx solid #F2F2F2;
+	font-size: 36upx;
+	letter-spacing: 2upx;
+	margin-top: 10upx;
+	color: #7A37C5;
+}
+
+.pay_confirm.cancel{
+	color: #333;
+	border-right: 1upx solid #F2F2F2;
+}
+
+.closePay > image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}

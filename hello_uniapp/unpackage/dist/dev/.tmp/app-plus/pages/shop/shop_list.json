@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "店铺列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "rate-show": "/components/rateShow",
+    "no-data": "/components/noData"
+  }
+}

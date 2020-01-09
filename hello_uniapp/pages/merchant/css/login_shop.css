@@ -1,0 +1,120 @@
+.list_control{
+	width: 750upx;
+	height: 80upx;
+	box-sizing: border-box;
+	padding:0 125upx;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	position: fixed;
+	top:calc(128upx + var(--status-bar-height));
+	left:0;
+	background: #fff;
+	z-index: 1000;
+	/* #ifdef MP-WEIXIN */
+	top:calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+
+.list_item_btn{
+	width: 200upx;
+	height: 80upx;
+	text-align: center;
+	line-height: 80upx;
+	letter-spacing: 2upx;
+	font-size:36upx;
+	color: #000000;
+	position: relative;
+}
+
+.list_item_btn.active{
+	color:#8A3EDF;
+}
+
+.list_item_btn.active::before{
+	content:"";
+	width: 60upx;
+	height: 4upx;
+	background: #803ACE;
+	position: absolute;
+	left: 50%;
+	bottom: 2upx;
+	transform: translateX(-50%);
+}
+
+.outBox{
+	width: 750upx;
+	height: auto;
+	padding-top: 80upx;
+}
+
+.shop_block{
+	position: relative;
+	width: 750upx;
+	padding:30upx 30upx 10upx 30upx;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	border-bottom: 1upx solid #F2F2F2;
+}
+
+
+.cube.one{
+	width:210upx;
+}
+
+.cube.two{
+	width: 370upx;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+.lineTit{
+	width: 128%;
+	font-size: 32upx;
+	margin-bottom: 10upx;
+	color: #333333;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.lineWord{
+	width: 100%;
+	font-size: 30upx;
+	color: #333333;
+}
+
+.lineWord.long{
+	width: 128%;
+}
+
+.cube.three{
+	width: 110upx;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login_btn{
+	width: 110upx;
+	height: 60upx;
+	background: #7A37C5;
+	font-size: 30upx;
+	color: #fff;
+	line-height: 60upx;
+	text-align: center;
+	border-radius: 6upx;
+}
+
+.cube > image{
+	width: 190upx;
+	height: 0;
+	display: block;
+}

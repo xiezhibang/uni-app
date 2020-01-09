@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "店铺详情",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

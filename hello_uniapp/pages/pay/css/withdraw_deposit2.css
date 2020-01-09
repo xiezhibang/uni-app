@@ -1,0 +1,214 @@
+.head_row{
+	height: 128upx;
+	background: #fff;
+	text-align: center;
+	line-height:128upx;
+	color:#000;
+	font-size: 38upx;
+	box-sizing: border-box;
+	border-bottom: 1upx solid #f6f6f6;
+	position: relative;
+}
+
+.head_row > .back_before{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100upx;
+	height: 128upx;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.head_row > .back_before > image{
+	width: 22upx;
+	position: relative;
+	top:42upx;
+	height: 0;
+}
+
+.cash_log_entrance{
+	width: 200upx;
+	height: 50upx;
+	text-align: center;
+	line-height: 50upx;
+	position: absolute;
+	top:50%;
+	right: 0;
+	transform: translateY(-50%);
+	font-size: 26upx;
+	color:#7a37c5;
+	text-decoration: underline;
+}
+
+page{
+	background: #f4f4f4;
+}
+
+.main_block{
+	width: 700upx;
+	height: auto;
+	background: #fff;
+	border-radius: 16upx;
+	margin:30upx auto 100upx auto;
+	padding:25upx 25upx;
+	box-sizing: border-box;
+	font-size: 36upx;
+}
+
+.input_cash{
+	width: 100%;
+	height: 100upx;
+	line-height:110upx;
+	margin-top: 10upx;
+	font-size: 70upx;
+	position: relative;
+}
+
+.input_cash > input{
+	position: absolute;
+	bottom:10upx;
+	right: 10upx;
+	width: 600upx;
+	height: 60upx;
+	border-bottom: 1upx solid #ddd;
+	font-size: 50upx;
+	padding-left: 30upx;
+	box-sizing: border-box;
+}
+
+.all_ti{
+	position: absolute;
+	top:0;
+	right: 0;
+	text-align: center;
+	width: 120upx;
+	height: 100upx;
+	z-index: 100;
+	font-size: 30upx;
+	color: #7A37C5;
+}
+
+.card_name{
+	width: 100%;
+	font-size: 32upx;
+	color: #333;
+}
+
+.card_num{
+	width: 100%;
+	font-size: 36upx;
+	color: #333;
+	margin:10upx auto;
+}
+
+.change_card{
+	width: 200upx;
+	height: 60upx;
+	line-height: 60upx;
+	font-size: 26upx;
+	color: #7A37C5;
+	text-decoration: underline;
+}
+
+.can_num{
+	width: 100%;
+	font-size: 32upx;
+	color: #ccc;
+}
+
+.choice_account{
+	width: 100%;
+	font-size: 32upx;
+	margin:20upx auto;
+}
+
+.pay_list{
+	width:652upx;
+	height: 100upx;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.pay_list .pay_item{
+	width: 210upx;
+	height:90upx;
+	margin: 5upx 7upx 8upx 0;
+	background: #fff;
+	position: relative;
+}
+
+.pay_item > image{
+	width: 70upx;
+	height: 0;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 2%;
+}
+.radio_item{
+	position: absolute;
+	top:50%;
+	right: 25%;
+	transform: translateY(-50%);
+	width: 32upx;
+	height: 32upx;
+	border: 1upx solid #DDDDDD;
+	background: #f5f5f5;
+	border-radius: 100%;
+}
+.radio_item.active{
+	border: 1upx solid #42AE3C;
+}
+
+.radio_item > view{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 16upx;
+	height: 16upx;
+	background: #42ae3c;
+	border-radius: 100%;
+}
+
+/* ******* */
+
+.card_row{
+	margin-top: 20upx;
+	width: 100%;
+	height: 60upx;
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 30upx;
+	color: #333;
+}
+
+.left_row{
+	width: 26%;
+	height: 100%;
+	line-height: 60upx;
+}
+
+.right_row{
+	width: 74%;
+	text-align: right;
+	line-height: 60upx;
+	box-sizing: border-box;
+	padding-right: 50upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.icon_arrow{
+	position: absolute;
+	top:50%;
+	right: 16upx;
+	transform: translateY(-50%);
+	width: 16upx;
+	height: 20upx;
+}

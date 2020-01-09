@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "礼包详情",
+  "usingComponents": {
+    "toprow": "/components/toprow"
+  }
+}

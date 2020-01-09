@@ -1,0 +1,13 @@
+
+.backHome{
+	position: fixed;
+	width: 100rpx;
+	height: 128rpx;
+	top:var(--status-bar-height);
+	left: 0;
+	z-index: 11000;
+	opacity: 0;
+}
+
+
+

@@ -1,0 +1,124 @@
+.active_box{
+	width: 750upx;
+	height: auto;
+}
+
+.line_view{
+	width: 750upx;
+	margin:auto;
+	padding:20upx 20upx;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row nowrap;
+	border-bottom: 1upx solid #F2F2F2;
+}
+
+.line_item.name{
+	font-size: 30upx;
+	color: #333333;
+	width: 22%;
+}
+
+.line_item.content{
+	width: 70%;
+}
+
+.acTypeLine{
+	width: 100%;
+	height: 40upx;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 26upx;
+}
+
+.radio_opt{
+	width: 120upx;
+	height: 40upx;
+	line-height: 40upx;
+	position: relative;
+	margin-right:10upx;
+}
+
+.radio_opt > radio{
+	transform: scale(0.6) translateY(-10%);
+}
+
+.time_line{
+	width: 100%;
+	line-height: 40upx;
+	font-size: 24upx;
+	display: flex;
+	flex-flow: row nowrap;
+	color: #666;
+}
+
+.time_wrap{
+	width:200upx;
+	height: 40upx;
+	margin-right: 10upx;
+	position: relative;
+}
+
+.time_wrap > .pk_obj{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1000;
+}
+
+.time_wrap > input{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	text-align: center;
+	font-size: 24upx;
+	border:1upx solid #F2F2F2;
+	padding:4upx 0;
+	box-sizing: border-box;
+}
+
+.time_wrap.right{
+	margin-left: 10upx;
+}
+
+.ipt_obj{
+	width: 100%;
+	height: auto;
+	font-size: 26upx;
+	position: relative;
+	top:4upx;
+	color: #333333;
+	border: none;
+	outline: none;
+}
+
+
+.activity_desc{
+	width: 750upx;
+	margin: auto;
+	padding:20upx 20upx;
+	font-size: 30upx;
+	color: #333333;
+	box-sizing: border-box;
+}
+
+.desc_text{
+	width: 710upx;
+	height: 160upx;
+	background: #eee;
+	color: #333333;
+	display: block;
+	margin: auto;
+	padding:20upx 20upx;
+	box-sizing: border-box;
+	border-radius: 30upx;
+	margin-top: 10upx;
+	font-size: 28upx;
+}
+
+.purple_btn{
+	margin:60upx auto 100upx auto;
+}

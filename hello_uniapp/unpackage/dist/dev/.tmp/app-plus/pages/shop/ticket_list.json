@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "活动券列表",
+  "usingComponents": {
+    "toprow": "/components/toprow",
+    "no-data": "/components/noData"
+  }
+}

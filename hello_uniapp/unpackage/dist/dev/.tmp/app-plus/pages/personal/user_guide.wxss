@@ -1,0 +1,26 @@
+.top_free_child{
+	width: 100%;
+	height: auto;
+	line-height: 1.5;
+	padding:10rpx 20rpx 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.img_part{
+	display: block;
+	margin: auto;
+}
+.img_part.full{
+	width: 750rpx;
+	height: 0;
+}
+.word_info{
+	width: 700rpx;
+	margin:20rpx auto;
+	font-size: 26rpx;
+	text-align: justify;
+	letter-spacing: 2rpx;
+	line-height: 1.5;
+}
+
+

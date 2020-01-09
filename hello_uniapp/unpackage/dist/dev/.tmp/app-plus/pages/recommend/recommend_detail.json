@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推荐详情",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "no-data": "/components/noData"
+  }
+}

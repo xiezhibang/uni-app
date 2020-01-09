@@ -1,0 +1,135 @@
+page{
+	background: #f0d3aa;
+}
+.goUpGrade{
+	width: 220rpx;
+	height: 60rpx;
+	background: #DAA520;
+	font-size: 30rpx;
+	color: #fff;
+	text-align: center;
+	line-height: 60rpx;
+	border-radius: 10rpx;
+	margin-top:10rpx;
+}
+.headImg{
+	width: 100%;
+	height: 0;
+	display: block;
+}
+.content_box{
+	width: 750rpx;
+	position: relative;
+}
+.white_block{
+	width: 708rpx;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: #fff;
+	padding:50rpx 10rpx 50rpx 40rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 24rpx;
+}
+.white_block.two{
+	margin-top: 30rpx;
+	padding:36rpx 10rpx 180rpx 40rpx;
+	border-radius: 0;
+	border-top-left-radius: 24rpx;
+	border-top-right-radius: 24rpx;
+}
+.ball_box{
+	position: absolute;
+	top:10rpx;
+	left: 20rpx;
+	width: 40rpx;
+	height: 40rpx;
+	background: -webkit-gradient(linear,left top, right bottom,from(#f4e7d2),to(#efcf9c));
+	background: -o-linear-gradient(top left,#f4e7d2,#efcf9c);
+	background: linear-gradient(top left,#f4e7d2,#efcf9c);
+	border-radius: 100%;
+}
+.big_tit_box{
+	position: relative;
+	width: 260rpx;
+	height: 30rpx;
+	background: #f2d8b0;
+	margin-top: 40rpx;
+}
+.tit_text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 40rpx;
+	letter-spacing: 2rpx;
+}
+.part_box{
+	width: 100%;
+	height: auto;
+	margin:16rpx auto;
+	font-size: 26rpx;
+	color: #9a6e37;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+.part_box.tit{
+	margin:32rpx 0 15rpx 0;
+}
+.left_cube{
+	width: 9%;
+}
+.right_cube{
+	width: 91%;
+	text-align: justify;
+}
+.big_ball{
+	color: #fff;
+	background: #fd7b14;
+	border-radius: 100%;
+	width: 40rpx;
+	height: 40rpx;
+	text-align: center;
+	line-height: 40rpx;
+	font-size: 34rpx;
+	margin-top: 2rpx;
+}
+.small_ball{
+	background: #fd7b14;
+	border-radius: 100%;
+	width: 20rpx;
+	height: 20rpx;
+	margin:8rpx 0 0 10rpx;
+}
+.big_tit_letter{
+	font-size: 34rpx;
+}
+.color_word{
+	color:#fd852b;
+}
+.left_img{
+	width: 60rpx;
+	height: 0;
+	position: absolute;
+	left: -21rpx;
+	bottom:-280rpx;
+	z-index: 100;
+}
+.bottom_img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	display: block;
+	z-index: 100;
+}
+

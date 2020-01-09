@@ -1,0 +1,1 @@
+<view><view class="loading_box_max"><image src="{{$root.m0}}"></image></view></view>

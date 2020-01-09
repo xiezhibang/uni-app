@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加盟邀请",
+  "usingComponents": {
+    "toprow2": "/components/toprow2"
+  }
+}

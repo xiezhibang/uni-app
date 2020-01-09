@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "城市选择",
+  "usingComponents": {
+    "toprow": "/components/toprow",
+    "city-select": "/components/city-select/city-select"
+  }
+}

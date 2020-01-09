@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺收藏列表",
+  "usingComponents": {
+    "toprow": "/components/toprow",
+    "rate-show": "/components/rateShow"
+  }
+}

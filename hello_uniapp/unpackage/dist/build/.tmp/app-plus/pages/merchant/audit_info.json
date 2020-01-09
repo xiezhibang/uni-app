@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "审核详情",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "no-data": "/components/noData"
+  }
+}

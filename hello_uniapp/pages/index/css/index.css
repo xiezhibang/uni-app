@@ -1,0 +1,429 @@
+page{
+	position: relative;
+	box-sizing: border-box;
+}
+
+.tipLoadLine{
+	width: 100%;
+	height: 60upx;
+	font-size: 30upx;
+	flood-color: #333333;
+	background: #fff;
+	line-height: 60upx;
+	text-align: center;
+	margin: 10upx auto;
+}
+
+.swiper_com image{
+	height: 0;
+}
+
+.index_search_box{
+	width: 100%;
+	height:128upx;
+	background:#803ace;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.title_padding{
+	background:#803ace;
+}
+
+.more_panel_box{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 12000;
+	background: rgba(0,0,0,0.5);
+	width: 750upx;
+	height: 100vh;
+}
+
+.moreTodo{
+	position: absolute;
+	top:calc(160upx + var(--status-bar-height));
+	right: 20upx;
+	background: #fff;
+	width: 220upx;
+	height: 240upx;
+	border-radius: 10upx;
+	/* #ifdef MP-WEIXIN */
+	top:calc(204upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.moreTodo::before{
+	content: "";
+	width: 20upx;
+	height: 30upx;
+	position: absolute;
+	top:-12upx;
+	right:18upx;
+	background: #fff;
+	transform: rotate(150deg) skewY(-30deg);
+}
+
+.todo_item{
+	width: 220upx;
+	height: 80upx;
+	border-bottom: 1upx solid #F2F2F2;
+	position: relative;
+	font-size: 28upx;
+	line-height: 80upx;
+	color:#000000;
+	box-sizing: border-box;
+	padding-left: 80upx;
+}
+
+.todo_item:last-child{
+	border: none;
+}
+
+.todo_item > image{
+	width: 30upx;
+	height: 0;
+	position: absolute;
+	top:50%;
+	left: 34upx;
+	transform: translateY(-50%);
+}
+
+.index_search_box > view{
+	height: 128upx;
+	position: relative;
+}
+
+.index_search_box > .search_box{
+	width: 60%;
+}
+.index_search_box > .site_box{
+	width: 22%;
+}
+
+.index_search_box > .more_box{
+	width: 18%;
+}
+
+.location_box{
+	width: auto;
+	max-width: 160upx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 44upx;
+	top:56%;
+	font-size: 28upx;
+	text-align: center;
+	color:#fff;
+}
+
+.location_box image{
+	display: inline-block;
+	width:32upx;
+	margin-right: 8upx;
+	position: relative;
+	top:4upx;
+	height: 0;
+}
+
+.more_box > image{
+	top:56%;
+	width:60upx;
+	height: 0;
+}
+
+.search_box > .search_box_inner{
+	display: block;
+	width: 100%;
+	height:80upx;
+	position: absolute;
+	top:58%;
+	left: 0;
+	transform: translateY(-50%);
+	
+}
+
+.search_box_inner input{
+	border-radius: 40upx;
+	width: 100%;
+	height: 72upx;
+	outline: none;
+	border: none;
+	background: #fff;
+	color:#000;
+	padding-left: 22%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	font-size: 32upx;
+}
+
+.search_box_inner image{
+	display: block;
+	width: 44upx;
+	height: 0;
+	top:50%;
+	left: 6%;
+	transform: translateY(-50%);
+}
+
+.ad_swiper_box{
+	width: 100%;
+	height:auto;
+	padding: 0;
+	/* #ifdef MP-WEIXIN */
+	position: relative;
+	top:-6upx;
+	/* #endif */
+}
+
+.swiper_com,.swiper_item_com,.swiper_item{
+	height: 280upx;
+	overflow: hidden;
+}
+
+.swiper_item > image{
+	height: 280upx;
+}
+
+.list_box{
+	width: 100%;
+	height: auto;
+	padding:24upx 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.list_item{
+	width: 120upx;
+	height: 160upx;
+	position: relative;
+	margin:0 33.75upx 20upx 35.75upx;
+}
+
+.list_item > view{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	height: 40upx;
+	line-height: 40upx;
+	color: #333;
+	font-size: 26upx;
+	white-space: nowrap;
+}
+
+
+.list_item > image{
+	height: 110upx;
+	width: 110upx;
+	display: block;
+	margin: auto;
+}
+
+.list_tool_box{
+	position: relative;
+	width: 750upx;
+	height: 80upx;
+	background: #FDFDFD;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.list_tool_box{
+	position: sticky;
+	top:calc(128upx + var(--status-bar-height));
+	left: 0;
+	z-index: 9999;
+	/* #ifdef MP-WEIXIN */
+	top: calc(172upx + var(--status-bar-height));
+	/* #endif */
+}
+
+.tool_item{
+	width: 20%;
+	height:80upx;
+	line-height: 80upx;
+	text-align: center;
+	font-size: 28upx;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding:0 4upx;
+	box-sizing: border-box;
+}
+
+.tool_item.tool_active{
+	color: #a220c2;
+}
+
+.img_wrap{
+	width:20upx;
+	height:20upx;
+	display: inline-block;
+	position: relative;
+	margin-left: 4upx;
+}
+
+.img_tl{
+	width:20upx;
+	height: 0;
+	position: absolute;
+	top:4upx;
+	left: 0;
+	opacity: 0;
+}
+
+.img_tl.img_ac{
+	opacity:1;
+}
+
+.tool_panel{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top:100%;
+	left: 0;
+	z-index: 999;
+	padding-bottom: 100upx;
+}
+
+.tool_option{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding:16upx 120upx 16upx 40upx;
+	box-sizing: border-box;
+	font-size: 28upx;
+	border-bottom: 1upx solid #eee;
+	position: relative;
+}
+
+.tool_option > radio{
+	position: absolute;
+	top:50%;
+	right: 40upx;
+	transform: translateY(-50%) scale(0.6);
+}
+
+
+.goods_list_box{
+	width: 750upx;
+	height: auto;
+	position: relative;
+}
+
+.goods_item{
+	width: 730upx;
+	height: 240upx;
+	margin: auto;
+	border-bottom: 1upx solid #EEEEEE;
+	display: flex;
+	flex-flow: row nowrap;
+	padding:20upx 0;
+	box-sizing: border-box;
+}
+
+.goods_item:last-child{
+	border: none;
+}
+
+.goods_img{
+	width: 190upx;
+	height: auto;
+	max-height: 220upx;
+	overflow: hidden;
+}
+.goods_img > image{
+	width: 100%;
+	height: 0;
+	display: block;
+}
+
+.goodsDetail{
+	width: 540upx;
+	height: 200upx;
+	position: relative;
+}
+
+.gd_wrap{
+	width: 500upx;
+	height: auto;
+}
+
+.gd_wrap > view{
+	width: 100%;
+	position: relative;
+}
+
+.gd_name{
+	font-size: 28upx;
+}
+
+.gd_evaluate{
+	height: 40upx;
+	font-size: 24upx;
+	color:#999;
+	text-align: right;
+}
+
+.gd_price{
+	height: 50upx;
+	color: red;
+	text-align: right;
+	font-size: 24upx;
+}
+
+.gd_price > text{
+	font-size: 36upx;
+}
+
+.shop_star{
+	position: absolute;
+	top:4upx;
+	left: 0;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.red_percent{
+	position: absolute;
+	top:8upx;
+	left: 0;
+	width:200upx;
+	height: 36upx;
+	border-radius: 10upx;
+	line-height:36upx;
+	font-size: 24upx;
+	color:#fff;
+	text-align: center;
+	background: #7a37c5;
+}
+
+.shop_tag{
+	position: absolute;
+	top:8upx;
+	left:210upx;
+	width: auto;
+	height: 36upx;
+	border:2upx solid orange;
+	border-radius: 10upx;
+	text-align: center;
+	font-size: 24upx;
+	color:orange;
+	padding:0 10upx;
+	box-sizing: border-box;
+}
+
+.goodsShadow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 300;
+	background: rgba(0,0,0,0.3);
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "店铺设置",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "avatar": "/components/yq-avatar/yq-avatar",
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress"
+  }
+}

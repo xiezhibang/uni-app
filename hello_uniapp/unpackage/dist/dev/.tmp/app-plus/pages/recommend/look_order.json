@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查看订单",
+  "usingComponents": {
+    "toprow": "/components/toprow"
+  }
+}

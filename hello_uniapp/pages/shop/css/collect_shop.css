@@ -1,0 +1,44 @@
+.shop_item{
+	width: 690upx;
+	height: auto;
+	padding:30upx 0;
+	box-sizing: border-box;
+	border-bottom: 1upx solid #eee;
+	position: relative;
+	margin: auto;
+}
+
+.shop_item > image{
+	width: 200upx;
+	display: block;
+	height: 100upx;
+}
+
+.shop_info{
+	position: absolute;
+	top:50%;
+	right: 0;
+	width: 460upx;
+	height: auto;
+	transform: translateY(-50%);
+}
+
+.shop_name{
+	width: 100%;
+	font-size: 36upx;
+	margin-bottom: 10upx;
+}
+
+.shop_other{
+	width: 100%;
+	font-size: 28upx;
+	color: #999999;
+	text-align: right;
+	position: relative;
+}
+
+.shop_star{
+	position: absolute;
+	top:0;
+	left: 0;
+}

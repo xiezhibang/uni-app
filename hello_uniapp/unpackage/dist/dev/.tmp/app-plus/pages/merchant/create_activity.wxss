@@ -1,0 +1,137 @@
+.active_box{
+	width: 750rpx;
+	height: auto;
+}
+.line_view{
+	width: 750rpx;
+	margin:auto;
+	padding:20rpx 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	border-bottom: 1rpx solid #F2F2F2;
+}
+.line_item.name{
+	font-size: 30rpx;
+	color: #333333;
+	width: 22%;
+}
+.line_item.content{
+	width: 70%;
+}
+.acTypeLine{
+	width: 100%;
+	height: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	font-size: 26rpx;
+}
+.radio_opt{
+	width: 120rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	position: relative;
+	margin-right:10rpx;
+}
+.radio_opt > radio{
+	-webkit-transform: scale(0.6) translateY(-10%);
+	    -ms-transform: scale(0.6) translateY(-10%);
+	        transform: scale(0.6) translateY(-10%);
+}
+.time_line{
+	width: 100%;
+	line-height: 40rpx;
+	font-size: 24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	    -ms-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	color: #666;
+}
+.time_wrap{
+	width:200rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+	position: relative;
+}
+.time_wrap > .pk_obj{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1000;
+}
+.time_wrap > input{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	text-align: center;
+	font-size: 24rpx;
+	border:1rpx solid #F2F2F2;
+	padding:4rpx 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.time_wrap.right{
+	margin-left: 10rpx;
+}
+.ipt_obj{
+	width: 100%;
+	height: auto;
+	font-size: 26rpx;
+	position: relative;
+	top:4rpx;
+	color: #333333;
+	border: none;
+	outline: none;
+}
+.activity_desc{
+	width: 750rpx;
+	margin: auto;
+	padding:20rpx 20rpx;
+	font-size: 30rpx;
+	color: #333333;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.desc_text{
+	width: 710rpx;
+	height: 160rpx;
+	background: #eee;
+	color: #333333;
+	display: block;
+	margin: auto;
+	padding:20rpx 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-radius: 30rpx;
+	margin-top: 10rpx;
+	font-size: 28rpx;
+}
+.purple_btn{
+	margin:60rpx auto 100rpx auto;
+}
+
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺活动",
+  "usingComponents": {
+    "toprow2": "/components/toprow2",
+    "no-data": "/components/noData"
+  }
+}

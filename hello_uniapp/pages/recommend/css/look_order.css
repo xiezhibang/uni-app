@@ -1,0 +1,174 @@
+
+.arrowImg{
+	position: absolute;
+	top:50%;
+	right:30upx;
+	transform: translateY(-50%);
+	width: 20upx;
+	height: 0;
+}
+
+.address_tip{
+	width: 750upx;
+	position: relative;
+	height: 170upx;
+	border-bottom: 1upx solid #ccc;
+}
+
+.no_address_tip{
+	position: absolute;
+	top:50%;
+	left: 30upx;
+	transform: translateY(-50%);
+	font-size: 38upx;
+	color: #000;
+}
+
+.have_address_info{
+	width: 650upx;
+	height: auto;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 30upx;
+}
+
+.address_detail{
+	width: 100%;
+	height: auto;
+	font-size: 32upx;
+	color: #000000;
+	text-align: justify;
+}
+.address_userInfo{
+	width: 100%;
+	margin-top: 6upx;
+	color:#000;
+	font-size: 26upx;
+}
+
+.goods_info{
+	width: 750upx;
+	position: relative;
+	height: 300upx;
+}
+
+.goods_img{
+	width: 300upx;
+	height: 200upx;
+	position: absolute;
+	top: 50%;
+	left: 30upx;
+	transform: translateY(-50%);
+}
+
+.goods_desc{
+	position: absolute;
+	top:50%;
+	right: 30upx;
+	transform: translateY(-50%);
+	width: 360upx;
+	font-size: 30upx;
+	text-align: justify;
+}
+
+.goods_desc > text{
+	display: block;
+	margin-top: 10upx;
+	font-size:38upx;
+	color:red;
+}
+
+.pay_method{
+	width: 750upx;
+	padding-left: 30upx;
+	box-sizing: border-box;
+	font-size: 36upx;
+}
+
+.pay_list{
+	width: 750upx;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.pay_item{
+	width: 100upx;
+	height: auto;
+	margin:30upx 40upx;
+}
+
+.pay_item > image{
+	width: 100%;
+	display: block;
+	height: 0;
+}
+
+.pay_btn{
+	position: fixed;
+	bottom:50upx;
+	left: 40upx;
+}
+
+.order_box{
+	margin-top: 10upx;
+	margin-bottom: 10upx;
+	width: 750upx;
+	padding:40upx 0;
+	box-sizing: border-box;
+	border-top: 1upx solid #ccc;
+	border-bottom: 1upx solid #ccc;
+}
+
+.order_line.double{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.left_word{
+	width: 60%;;
+}
+
+.right_word{
+	width:40%;
+	text-align: right;
+	color: #FF0000;
+}
+
+.order_line{
+	font-size: 30upx;
+	color: #333;
+	padding:5upx 30upx;
+	box-sizing: border-box;
+	width: 750upx;
+}
+
+.order_line.purple{
+	color: #8a3edf;
+}
+
+.backRecommendPage{
+	width: 300upx;
+	height: 60upx;
+	margin:50upx auto 0 auto;
+	background: #7A37C5;
+	color: #fff;
+	font-size: 30upx;
+	line-height: 60upx;
+	text-align: center;
+	border-radius: 30upx;
+}
+
+.backView{
+	position: fixed;
+	top:var(--status-bar-height);
+	left: 0;
+	z-index: 20000;
+	width: 150upx;
+	height: 128upx;
+	/* #ifdef MP-WEIXIN */
+	top:calc(44upx + var(--status-bar-height));
+	/* #endif */
+}

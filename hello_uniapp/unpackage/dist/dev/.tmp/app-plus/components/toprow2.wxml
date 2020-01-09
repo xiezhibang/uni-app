@@ -1,0 +1,1 @@
+<view name="toprow2"><view class="head_out"><view class="title_padding"></view><view class="head_row"><block wx:if="{{isShowBack=='true'}}"><view data-event-opts="{{[['tap',[['backBeforePage',['$event']]]]]}}" class="back_before" bindtap="__e"><image src="{{$root.m0}}" mode="widthFix" tag="other"></image></view></block>{{''+titleval+''}}</view></view></view>

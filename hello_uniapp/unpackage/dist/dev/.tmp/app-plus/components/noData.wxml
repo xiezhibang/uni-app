@@ -1,0 +1,1 @@
+<view><view class="noDataTip" style="{{'color:'+(colorv)+';'}}">{{tip}}</view></view>
